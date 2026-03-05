@@ -49,13 +49,9 @@ if you getting error `'keytool' is not recognized as an internal or external com
 
 - to run it please press **`F5`**
 
-- if everything run well, no error it should look like this
+- if the app runs without errors, Google Sign-In should be working now.
 
-![Example banner](./assets/success_run.png)
-
-- you can now register, or sign in with google account with no problem
-
-![Example banner](./assets/google_login.PNG)
+- You can proceed to **Register** or **Sign in with Google** from the login screen.
 
 :::info
 if the Helo Teacher app feels a little lag, or jittery, it's because the app is in debug mode if you release the app, everything will be smooth

@@ -1,10 +1,19 @@
 ---
 sidebar_position: 1
+sidebar_label: Requirements
 ---
 
 # Before Start
 
 Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase, Flutter widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts to provide full native performance on both iOS and Android.
+
+## Requirements
+
+- **Flutter SDK version:** 3.41.0
+- **Dart SDK version:** 3.11.0
+- **Android Studio version:** Latest stable
+- **Xcode version:** Latest stable
+- **JDK version:** Latest stable
 
 ## System Requirement ⚡️
 
