@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Change App Name
 ---
 
@@ -56,11 +56,6 @@ To change it, update this widget file:
 - `lib/app/modules/login/views/widgets/title_app.dart`
 
 Typical change:
-
-1. Open the file and find the text used for the title (usually a `Text(...)` widget).
-2. Replace the string with your new label.
-
-Example:
 
 ```dart
 // Before
