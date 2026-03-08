@@ -5,49 +5,54 @@ sidebar_label: Setup Stripe Payment Gateway
 
 # Payment Gateway
 
-A payment gateway is a merchant service that authorizes card or bank payments for an app. In **Hallo Teacher**, the payment gateway is used when a user places an order for a teacher’s timeslot.
+A payment gateway is a merchant service provided by an e-commerce application service provider that authorizes credit card or direct payments processing for e-businesses,
+here we will use a payment gateway to provide payment services for users, when they are about to place an order for a Teacher's timeslot
 
-This guide explains how to set up **Stripe payments** and the required **Stripe webhook**.
+## Stripe Payment Gateway
 
-## Prerequisites
+here we will use Stripe payment gateway, because Stripe is one of the largest payment gateways, and is widely used, but if you want to use another payment gateway, modifying the app will be very easy, just change `lib\app\service\payment_service.dart`, but here we will use Stripe payment gateway
 
-- A Stripe account: https://stripe.com/
-- Firebase Cloud Functions already set up and deployed from `/Halo_Teacher_Cloud_Function_Firebase`
-
-## 1) Get your Stripe API keys
-
-1. Open the Stripe Dashboard (Test mode): https://dashboard.stripe.com/test/dashboard
-2. Copy the **Publishable key** (`pk_test_...`) and the **Secret key** (`sk_test_...`).
+- goto Stripe official site and register new account https://stripe.com/
+- when Stripe asks you to activate your account, you can **activate it later**
+- for now we only need a `Publishable key` and a `Secret key` you can get it here https://dashboard.stripe.com/test/dashboard
 
 ![Flutter Doctor](./assets/stripe_key.png)
 
-### Add Publishable key to the Flutter client
+- Copy Stripe `Publishable key` and paste it in `.env` file at `STRIPE_PUBLISHABLE_KEY=` in your `/Hallo_Teacher_Client_Firebase` flutter project
 
-Paste your Stripe publishable key into the Flutter project `.env` file in `/Hallo_Teacher_Client_Firebase`:
+your `.env` file should look like this
 
-```dotenv title="/.env"
-# Stripe
-STRIPE_PUBLISHABLE_KEY=pk_test_your_publishable_key_here
+```jsx title="/.env"
+#Stripe Environment
+STRIPE_PUBLISHABLE_KEY=sk_test_51HuXoBEwKn2CFnwUTqweh1Si9L0vG4zSbAbKm1OIhYLZA1R3ypELDXDCntEPJ9Y2nw62kwsKBn
 ```
 
 for the Secret Key in Stripe Dashboard, we have to add it to the Firebase Cloud Function that we previously setup in folder `/Halo_Teacher_Cloud_Function_Firebase`
 
 :::info
-Stripe **Secret key** must be available in Firebase Cloud Functions so the server can create/verify payments.
+Stripe Secret Key must be added to the Firebase cloud Function, for verify payment
 :::
 
-#### If your Hallo Teacher version is >= `1.1.1`
+## Add Stripe Key To Firebase Cloud
 
-Add your Stripe secret key to the Cloud Functions `.env`:
+:::info
+if your Hallo Teacher version is greater than or equal to `1.1.1` you just need to copy `Stripe secret key` to `.env` file at STRIPE_SECRET_KEY=put_your_stripe_key_here
+and skip the next step in this page
+:::
 
-```dotenv title="/Halo_Teacher_Cloud_Function_Firebase/.env"
-# Stripe
-STRIPE_SECRET_KEY=sk_test_your_secret_key_here
+if your Hallo Teacher version is lower than or equal to `1.0.19` add the stripe cloud function with this step: 
+
+- back to Firebase Cloud function folder `/Halo_Teacher_Cloud_Function_Firebase`
+- open it with `CMD`
+- run the command below, but change the key to your Stripe Secret Key
+
+```
+firebase functions:config:set stripe.token="sk_test_51HuXoBEwKn2CFnwUTqw8kKeh1Si9L0vG4zSbAbKm1OWpRfIhYLZA1R3ypELDXDCntE28PJ9w62kwsKBnuzHkszK"
 ```
 
-Deploy your functions after updating env:
+- now we can deploy it using this command
 
-```powershell
+```
 firebase deploy
 ```
 
