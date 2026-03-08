@@ -30,16 +30,16 @@ For details on the above steps, see Managing AVDs. https://developer.android.com
 
 - In Android Virtual Device Manager, click Run in the toolbar. The emulator starts up and displays the default canvas for your selected OS version and device.
 
-## Run flutter Teacher
+## Run flutter Doctor
 
-In Android Studio Menu -> Tools -> Flutter -> Flutter Teacher
+In Android Studio Menu -> Tools -> Flutter -> Flutter Doctor
 
 ![Example banner](./assets/flutter_doctor.png)
 
 This command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in bold text).
 
 ```
-C:\Users\Amsyari\src\flutter\bin\flutter.bat Teacher --verbose
+C:\Users\Amsyari\src\flutter\bin\flutter.bat Doctor --verbose
 [√] Flutter (Channel stable, 2.8.0, on Microsoft Windows [Version 10.0.19043.1415], locale en-ID)
     • Flutter version 2.8.0 at C:\Users\Amsyari\src\flutter
     • Upstream repository https://github.com/flutter/flutter.git
@@ -53,14 +53,14 @@ C:\Users\Amsyari\src\flutter\bin\flutter.bat Teacher --verbose
 Process finished with exit code 0
 ```
 
-### Flutter Teacher in Visual Studio Code
+### Flutter Doctor in Visual Studio Code
 
 Open terimnal in Visual Studio code with `` CTRL + `  ``
 
 and type
 
 ```jsx
-flutter Teacher
+flutter Doctor
 ```
 
-![Flutter Teacher](./assets/flutter_doctor_vscode.PNG)
+![Flutter Doctor](./assets/flutter_doctor_vscode.PNG)

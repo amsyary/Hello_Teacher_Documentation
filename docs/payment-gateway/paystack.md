@@ -22,9 +22,9 @@ This guide covers the **basic Paystack setup** (copy the secret key into Firebas
 
 ## 3) Add the Secret Key to Firebase Cloud Functions (.env)
 
-Paste the secret key into the Cloud Functions `.env` file in `/Halo_Teacher_Cloud_Function_Firebase`:
+Paste the secret key into the Cloud Functions `.env` file in `/Halo_Doctor_Cloud_Function_Firebase`:
 
-```dotenv title="/Halo_Teacher_Cloud_Function_Firebase/.env"
+```dotenv title="/Halo_Doctor_Cloud_Function_Firebase/.env"
 # Paystack
 PAYSTACK_SECRET_KEY=sk_test_your_secret_key_here
 ```

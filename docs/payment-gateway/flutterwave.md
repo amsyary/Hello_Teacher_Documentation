@@ -10,7 +10,7 @@ This guide covers the **basic Flutterwave setup** (copy the Public Key into the 
 :::caution
 This setup uses **client configuration only**.
 
-For a secure production setup, you must implement **server-side verification + Flutterwave webhooks** in `/Halo_Teacher_Cloud_Function_Firebase`.
+For a secure production setup, you must implement **server-side verification + Flutterwave webhooks** in `/Halo_Doctor_Cloud_Function_Firebase`.
 :::
 
 ## 1) Create a Flutterwave account
@@ -29,7 +29,7 @@ For a secure production setup, you must implement **server-side verification + F
 
 ## 3) Add the Public Key to the Flutter client (.env)
 
-Paste the Public Key into the Flutter project `.env` file in `/Hallo_Teacher_Client_Firebase`:
+Paste the Public Key into the Flutter project `.env` file in `/Hallo_Doctor_Client_Firebase`:
 
 ```dotenv title="/.env"
 # Flutterwave

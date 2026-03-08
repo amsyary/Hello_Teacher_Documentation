@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Troubleshooting
 
-This section lists common issues when setting up and running **Hello Teacher** (Flutter + Firebase + payments + video call).
+This section lists common issues when setting up and running **Hello Doctor** (Flutter + Firebase + payments + video call).
 
 ## Flutter / build issues
 

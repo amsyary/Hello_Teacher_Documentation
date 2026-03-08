@@ -5,7 +5,7 @@ sidebar_label: Deploy to Firebase Hosting
 
 # Deploy to Firebase Hosting
 
-After you have the Hello Teacher Web app running locally, you can deploy it to Firebase Hosting so it is available on the web. This page walks you through building the React app and publishing it to Firebase.
+After you have the Hello Doctor Web app running locally, you can deploy it to Firebase Hosting so it is available on the web. This page walks you through building the React app and publishing it to Firebase.
 
 ## Prerequisites
 
@@ -23,11 +23,11 @@ Then log in:
 firebase login
 ```
 
-- The Hello Teacher Web project set up with dependencies installed (`npm install` already run) and environment configured (`.env` with Firebase credentials).
+- The Hello Doctor Web project set up with dependencies installed (`npm install` already run) and environment configured (`.env` with Firebase credentials).
 
 ## Step 1: Build the project
 
-Open a terminal in the **root** of the Hello Teacher Web project and create a production build:
+Open a terminal in the **root** of the Hello Doctor Web project and create a production build:
 
 ```bash
 npm run build
@@ -50,7 +50,7 @@ firebase init
 ```
 
 1. Use the arrow keys to select **Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys**, then press Enter.
-2. When asked to choose a Firebase project, select your existing **Hello Teacher** project.
+2. When asked to choose a Firebase project, select your existing **Hello Doctor** project.
 3. When asked for the **public directory**, enter the folder where the build output was written:
    - If the build output is in `dist`, enter: `dist`
    - If the build output is in `build`, enter: `build`
@@ -66,7 +66,7 @@ Deploy the app to Firebase Hosting:
 firebase deploy
 ```
 
-When the deploy finishes, the terminal will show your **Hosting URL** (e.g. `https://your-project-id.web.app`). Open that URL in a browser to use the deployed Hello Teacher Web app.
+When the deploy finishes, the terminal will show your **Hosting URL** (e.g. `https://your-project-id.web.app`). Open that URL in a browser to use the deployed Hello Doctor Web app.
 
 ## Next steps
 

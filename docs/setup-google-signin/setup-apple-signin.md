@@ -24,5 +24,5 @@ Done, now you the app should be able to register with apple account
 with apple's new rules for uploading to AppStore
 Apple Required you to enable Apple Sign in if you enable Google Sign in, 
 except if it not implementing Google Sign is, it's okey to not Adding Apple Signin
-like the Teacher App, it's not implementing Google & Apple Sign in
+like the Doctor App, it's not implementing Google & Apple Sign in
 :::

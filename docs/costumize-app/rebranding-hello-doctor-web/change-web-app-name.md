@@ -12,7 +12,7 @@ sidebar_label: Change Web App Name
 2. Find the app name constant/value (example):
 
 ```ts
-export const APP_NAME = 'Hello Teacher';
+export const APP_NAME = 'Hello Doctor';
 ```
 
 3. Change it to your new brand name:

@@ -5,16 +5,16 @@ sidebar_label: Setup environment (.env)
 
 # Setup environment (.env)
 
-The Hello Teacher Web project uses a `.env` file to store Firebase credentials and other secrets. You need to create this file from the example and fill it with the Firebase config you obtained in the previous step.
+The Hello Doctor Web project uses a `.env` file to store Firebase credentials and other secrets. You need to create this file from the example and fill it with the Firebase config you obtained in the previous step.
 
-## Step 1: Open the Hello Teacher Web project
+## Step 1: Open the Hello Doctor Web project
 
 - Open your code editor (e.g. Visual Studio Code).
-- Use **File → Open Folder** and select the **Hello Teacher Web** project folder (the one that contains `package.json` and the React app source).
+- Use **File → Open Folder** and select the **Hello Doctor Web** project folder (the one that contains `package.json` and the React app source).
 
 ## Step 2: Create the .env file
 
-- In the **root** of the Hello Teacher Web project (same level as `package.json`), create a new file named `.env`.
+- In the **root** of the Hello Doctor Web project (same level as `package.json`), create a new file named `.env`.
 - Open the existing `.env_example` file in the same folder and copy its entire contents into the new `.env` file.
 
 :::info

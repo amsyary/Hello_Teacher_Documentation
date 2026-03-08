@@ -9,7 +9,7 @@ sidebar_label: Deploy Firebase Function
 
 Cloud Functions for Firebase is a serverless framework that lets you automatically run backend code in response to events triggered by Firebase features and HTTPS requests. Your JavaScript or TypeScript code is stored in Google's cloud and runs in a managed environment.
 
-so simply we will deploy the cloud function in the `/Halo_Teacher_Cloud_Function_Firebase` folder to our firebase project
+so simply we will deploy the cloud function in the `/Halo_Doctor_Cloud_Function_Firebase` folder to our firebase project
 
 ## Set up Node.js and the Firebase CLI
 
@@ -31,7 +31,7 @@ npm install -g firebase-tools
 
 ## Initialize Firebase Cloud
 
-Open terminal in folder, `/Halo_Teacher_Cloud_Function_Firebase` if you use Windows open it with `CMD`
+Open terminal in folder, `/Halo_Doctor_Cloud_Function_Firebase` if you use Windows open it with `CMD`
 
 - inside that folder type
 

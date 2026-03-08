@@ -34,7 +34,7 @@ To install and run Flutter, your development environment must meet these minimum
 - Disk Space: 1.64 GB (does not include disk space for IDE/tools).
 
 ### 2. IOS Development
-to develope Hallo Teacher App into IOS App, it is mandatory to use MacOS Machine
+to develope Hallo Doctor App into IOS App, it is mandatory to use MacOS Machine
 - Follow [this guide](https://docs.flutter.dev/get-started/install/macos) to setup Flutter in MacOS 
   
 continue the tutorial to setup the app

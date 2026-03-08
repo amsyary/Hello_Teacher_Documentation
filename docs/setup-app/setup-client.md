@@ -10,21 +10,21 @@ Throughout this tutorial I will be using Visual Studio Code, if you want to use 
 
 to open a project in Visual Studio Code, it's very easy
 
-- Open Visual Studio Code -> Click File -> Open Folder -> chose `/Hallo_Teacher_Client_Firebase` folder
+- Open Visual Studio Code -> Click File -> Open Folder -> chose `/Hallo_Doctor_Client_Firebase` folder
 
 or
 
 - Open CMD if you use windows
-- Go to `/Hallo_Teacher_Client_Firebase` directory
+- Go to `/Hallo_Doctor_Client_Firebase` directory
 - and type `code .`
 
 visual studio code will be opening in that directory
 
 ## Step No.2 Install Project Dependencies
 
-after the Hallo Teacher Client project opens in Visual Studio code or in Android Studio, we will install all the dependencies
+after the Hallo Doctor Client project opens in Visual Studio code or in Android Studio, we will install all the dependencies
 
-when you open Hello Teacher Client for the first time in Visual Studio Code, Usually a dialog will appear in the bottom right corner, asking you to directly install all dependencies, just click `Get packages`
+when you open Hello Doctor Client for the first time in Visual Studio Code, Usually a dialog will appear in the bottom right corner, asking you to directly install all dependencies, just click `Get packages`
 
 ![Example banner](./assets/get_package.PNG)
 

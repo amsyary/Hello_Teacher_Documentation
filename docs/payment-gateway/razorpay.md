@@ -10,7 +10,7 @@ This guide covers the **basic Razorpay setup** (API key for the Flutter client).
 :::caution
 This setup uses **manual verification** only.
 
-For a secure production setup, you must implement **server-side verification + Razorpay webhooks** in `/Halo_Teacher_Cloud_Function_Firebase`.
+For a secure production setup, you must implement **server-side verification + Razorpay webhooks** in `/Halo_Doctor_Cloud_Function_Firebase`.
 :::
 
 ## 1) Create a Razorpay account
@@ -32,7 +32,7 @@ If you already generated a key before, the button will show **Regenerate Key**.
 
 ## 3) Add the key to the Flutter client (.env)
 
-Copy the **Key ID** and paste it into the Flutter project `.env` file in `/Hallo_Teacher_Client_Firebase`:
+Copy the **Key ID** and paste it into the Flutter project `.env` file in `/Hallo_Doctor_Client_Firebase`:
 
 ```dotenv title="/.env"
 # Razorpay

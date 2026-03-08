@@ -5,9 +5,9 @@ sidebar_label: Create Android App
 
 # Create Android App in Firebase Project
 
-After creating a firebase project, in this project we can create several apps with different configuration, here we will create Hallo Teacher Client Android App.
+After creating a firebase project, in this project we can create several apps with different configuration, here we will create Hallo Doctor Client Android App.
 
-## Create Hallo Teacher Client Android App 
+## Create Hallo Doctor Client Android App 
 
 - Click android icon
 
@@ -21,7 +21,7 @@ After creating a firebase project, in this project we can create several apps wi
 
 ### Get Package name
 
-- in your Project Flutter `Hello Teacher Client`, which was already open using visual studio code, or Android Studio
+- in your Project Flutter `Hello Doctor Client`, which was already open using visual studio code, or Android Studio
 
 :::info
 
@@ -41,7 +41,7 @@ flutter pub run change_app_package_name:main com.mycompany.myappname
 
 ![Example banner](./assets/change_package_name.PNG)
 
-- so after that, the package name in your `Hello Teacher Client` app has all changed,
+- so after that, the package name in your `Hello Doctor Client` app has all changed,
   and you can copy the package name to firebase
 - and add your App nickname
 
