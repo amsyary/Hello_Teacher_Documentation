@@ -13,7 +13,7 @@ Before starting, you need to have the following installed:
 
 ## Step 1: Use FlutterFire CLI
 
-1. Open a terminal and navigate to your `/Hello_Doctor_Admin_Dashboard_Flutter` directory, and install all the dependency :
+1. Open a terminal and navigate to your `/Hello_Teacher_Admin_Dashboard_Flutter` directory, and install all the dependency :
 ```
 flutter pub get
 ```
@@ -72,4 +72,4 @@ flutter pub get
    firebase deploy
    ```
 
-10. You can now open the URL that Firebase gives and log in using your email and password that you previously set up in the `Setup Doctor Category` tab.
+10. You can now open the URL that Firebase gives and log in using your email and password that you previously set up in the `Setup Teacher Category` tab.

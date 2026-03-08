@@ -13,7 +13,7 @@ to activate the google sign in feature on ios app its very straightforward, we o
 
 you can change `URL` scheme in xcode or Visual Studio Code, you need to open the `Info.plist` file
 
-- Using Visual Studio Code open `/Hallo_Doctor_Client_Firebase/ios/Runner/Info.plist`
+- Using Visual Studio Code open `/Hallo_Teacher_Client_Firebase/ios/Runner/Info.plist`
 
 ![Example banner](./assets/ios-signin1.png)
 

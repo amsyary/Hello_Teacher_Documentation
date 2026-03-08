@@ -17,7 +17,7 @@ Firebase is categorized as a NoSQL database program, which stores data in JSON-l
 
 ![Example banner](./assets/create_new_project.PNG)
 
-- after that enter your `app name` it can be up to you, here I enter the name "Helo Doctor"
+- after that enter your `app name` it can be up to you, here I enter the name "Helo Teacher"
 
 ![Example banner](./assets/give_name_your_app.png)
 

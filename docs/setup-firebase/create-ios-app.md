@@ -5,9 +5,9 @@ sidebar_label: Create IOS App
 
 # Create IOS App in Firebase Project
 
-Here we will setup Hallo Doctor Firebase to IOS, if you only wanto build the app to Android you can skip this section
+Here we will setup Hallo Teacher Firebase to IOS, if you only wanto build the app to Android you can skip this section
 
-## Create Hallo Doctor Client IOS App 
+## Create Hallo Teacher Client IOS App 
 
 in your firebase project : 
 
@@ -21,11 +21,11 @@ in your firebase project :
 
 ![](./assets/ios2.png)
 
-to get app bundle id we need to open our Hallo Doctor Client ios app in the xcode : 
+to get app bundle id we need to open our Hallo Teacher Client ios app in the xcode : 
 
-- Open `\Hallo_Doctor_Client_Firebase` in the vscode
+- Open `\Hallo_Teacher_Client_Firebase` in the vscode
 
-- After the Hallo Doctor Client Project is open, you need to right click on the `ios` folder and click open in xcode
+- After the Hallo Teacher Client Project is open, you need to right click on the `ios` folder and click open in xcode
 
 ![](./assets/ios3.png)
 
@@ -65,6 +65,6 @@ it's mandatory to copy the file in xcode, otherwise it will not work
 
 - if you having trouble following this ios documentaion here is the [Video Tutorial you can follow](https://www.youtube.com/watch?v=hy0NtR0NW4Q)
 
-- and Repeat this proccess for the `Doctor App` in folder `/Hallo_Doctor_Doctor_App_Firebase`
+- and Repeat this proccess for the `Teacher App` in folder `/Hallo_Teacher_Teacher_App_Firebase`
 
 - after that continue to the next step

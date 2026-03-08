@@ -30,7 +30,7 @@ if you getting error `'keytool' is not recognized as an internal or external com
 
 ![Example banner](./assets/firebase.PNG)
 
-- and then redownload `google-service.json`, put that in `/Hallo_Doctor_Client_Firebase/android/app/`
+- and then redownload `google-service.json`, put that in `/Hallo_Teacher_Client_Firebase/android/app/`
 
 - before running the app, make sure you activate google sign in provider on firebase
 
@@ -39,9 +39,9 @@ if you getting error `'keytool' is not recognized as an internal or external com
 
 - thats it, you can now login using google account
 
-## Run Helo Doctor Client App
+## Run Helo Teacher Client App
 
-- to run this helo Doctor application, make sure your emulator is running, or your real device is connected
+- to run this helo Teacher application, make sure your emulator is running, or your real device is connected
 
 - you can see it in the bottom corner of Visual Studio Code
 
@@ -54,5 +54,5 @@ if you getting error `'keytool' is not recognized as an internal or external com
 - You can proceed to **Register** or **Sign in with Google** from the login screen.
 
 :::info
-if the Helo Doctor app feels a little lag, or jittery, it's because the app is in debug mode if you release the app, everything will be smooth
+if the Helo Teacher app feels a little lag, or jittery, it's because the app is in debug mode if you release the app, everything will be smooth
 :::

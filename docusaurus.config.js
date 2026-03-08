@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Hello Doctor Documentation",
+  title: "Hello Teacher Documentation",
   tagline: "",
   favicon: "img/favicon.ico",
 
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Hallo Doctor",
+        title: "Hallo Teacher",
         logo: {
-          alt: "Hello Doctor",
-          src: "/img/hello_doctor_logo.png",
+          alt: "Hello Teacher",
+          src: "/img/hello_teacher_logo.png",
         },
         items: [
           {
@@ -130,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hallo Doctor Web Documentation, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hallo Teacher Web Documentation, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

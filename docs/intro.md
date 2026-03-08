@@ -7,15 +7,15 @@ sidebar_position: 1
 
 **First of all, thank you very much for purchasing this source code**.
 
-Introducing the Hello Doctor application, a complete end-to-end solution for booking remote consultation sessions with doctors. Our user-friendly app enables users to easily find and book a session with their preferred doctor, and make secure payments directly to them. With our video call system, users can have their consultation sessions with their doctor from the comfort of their own homes, providing a convenient and accessible option for those who prefer remote healthcare. Experience hassle-free booking and consultation sessions with the Hello Doctor application.
+Introducing the Hello Teacher application, a complete end-to-end solution for booking remote learning sessions with teachers. Our user-friendly app enables users to easily find and book a session with their preferred teacher, and make secure payments directly to them. With our video call system, users can have their learning sessions with their teacher from the comfort of their own homes, providing a convenient and accessible option for those who prefer remote learning. Experience hassle-free booking and learning sessions with the Hello Teacher application.
 
 ## What It Is And How It Works
 
-In the current situation, face-to-face consultation can be difficult and intimidating for some. Additionally, many people may be hesitant to consult with a doctor due to concerns about cost. However, with the advancement of technology, we can address these issues by using video call technology to facilitate remote consultation.
+In the current situation, face-to-face learning can be difficult and intimidating for some. Additionally, many people may be hesitant to learn from a teacher due to concerns about cost. However, with the advancement of technology, we can address these issues by using video call technology to facilitate remote learning.
 
-Introducing the Hello Doctor application, which offers consultation sessions with various doctors from different specialties. The application enables clients to easily find and select their desired doctor based on ratings, reviews, and session fees. Payment is made easy for clients, and once the doctor's timeslot is purchased, the doctor can set the duration of the session and start the session at the scheduled time. After the session is complete, clients can provide feedback via a review system.
+Introducing the Hello Teacher application, which offers learning sessions with various teachers from different subjects. The application enables clients to easily find and select their desired teacher based on ratings, reviews, and session fees. Payment is made easy for clients, and once the teacher's timeslot is purchased, the teacher can set the duration of the session and start the session at the scheduled time. After the session is complete, clients can provide feedback via a review system.
 
-As the service provider, we will take a commission from each transaction that occurs, and the doctor will receive their payment directly from the client. We believe this application will help to make healthcare more accessible and convenient for clients, as they can easily find a doctor from various specialties. Once you try the Hello Doctor application, we are confident that you will fully understand its functionality.
+As the service provider, we will take a commission from each transaction that occurs, and the teacher will receive their payment directly from the client. We believe this application will help to make learning more accessible and convenient for clients, as they can easily find a teacher from various subjects. Once you try the Hello Teacher application, we are confident that you will fully understand its functionality.
 
 ## Technology / Stack used in this app
 
@@ -31,29 +31,29 @@ As the service provider, we will take a commission from each transaction that oc
 
 - Login (with Google Login, or username & password) / Register / Forgot Password
 
-- Top Rated Doctor
+- Top Rated Teacher
 
-show all top rated Doctor
+show all top rated Teacher
 
-- Search Doctor
+- Search Teacher
 
-you can search Doctor by their name
+you can search Teacher by their name
 
-- Doctor Category / Specialist
+- Teacher Category / Specialist
 
-show all Doctor category
+show all Teacher category
 
-- Doctor Detail
+- Teacher Detail
 
-you can see Doctor detail, like hospital, price, review, rating, biography . etc
+you can see Teacher detail, like hospital, price, review, rating, biography . etc
 
-- Doctor Timeslot
+- Teacher Timeslot
 
-you can see all Doctor timeslot that you can book, there is time, and price
+you can see all Teacher timeslot that you can book, there is time, and price
 
 - Purchase Timeslot with Stripe payment Gateway
 
-you can purchase Doctor timeslot using stripe payment gateway
+you can purchase Teacher timeslot using stripe payment gateway
 
 - Order Detail
 
@@ -65,53 +65,53 @@ start consultation using video call
 
 - Review & Rating
 
-after consultation session you ban give review to Doctor
+after consultation session you ban give review to Teacher
 
 - Problem
 
-if something wrong, you can complain and payment to the Doctor will be witheld, until problem resolve
+if something wrong, you can complain and payment to the Teacher will be witheld, until problem resolve
 
 - Edit Profile
 
 you ca edit your email, and password
 
-### Doctor
+### Teacher
 
 - Login / Register / Forgot Password
 
-- Doctor Detail
+- Teacher Detail
 
-Doctor can add their detail such as Specialist, Hospital
+Teacher can add their detail such as Specialist, Hospital
 
 - Calendar Timeslot
 
-Doctor can add Timeslot, with price, duration, and date
+Teacher can add Timeslot, with price, duration, and date
 
 - Consultation List
 
-Doctor can see if there is consultation being purchase
+Teacher can see if there is consultation being purchase
 
 - Video Call Consultation
 
-Doctor can start consultation session and client will be notified
+Teacher can start consultation session and client will be notified
 
 - Balance, Money
 
-Doctor can see their balance add if consultation alredy ended
+Teacher can see their balance add if consultation alredy ended
 
 - Withdraw Money
 
-Doctor can withdraw their money using payment method that their chose(currently only support PayPal)
+Teacher can withdraw their money using payment method that their chose(currently only support PayPal)
 
 ### Web Admin
 
-- Dashboard Data (User Number, Doctor Number, ext)
+- Dashboard Data (User Number, Teacher Number, ext)
 
 - List Data of User
 
-- List Data of Doctor
+- List Data of Teacher
 
-- List, Add, Edit, Doctor Category
+- List, Add, Edit, Teacher Category
 
 - List Transaction
 

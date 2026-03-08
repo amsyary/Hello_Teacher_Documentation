@@ -5,11 +5,11 @@ sidebar_label: Install and run
 
 # Install and run
 
-After you have created the Firebase web app and set up your `.env` file with the Firebase credentials, install the project dependencies and run the Hello Doctor Web app locally.
+After you have created the Firebase web app and set up your `.env` file with the Firebase credentials, install the project dependencies and run the Hello Teacher Web app locally.
 
 ## Step 1: Install dependencies
 
-Open a terminal in the **root** of the Hello Doctor Web project (where `package.json` is located) and run:
+Open a terminal in the **root** of the Hello Teacher Web project (where `package.json` is located) and run:
 
 ```bash
 npm install
@@ -37,7 +37,7 @@ or:
 npm start
 ```
 
-The terminal will show a local URL (e.g. `http://localhost:3000` or similar). Open that URL in your browser to use the Hello Doctor Web app.
+The terminal will show a local URL (e.g. `http://localhost:3000` or similar). Open that URL in your browser to use the Hello Teacher Web app.
 
 ## Next steps
 
