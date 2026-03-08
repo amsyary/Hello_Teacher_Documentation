@@ -16,7 +16,7 @@ Example:
 
 ```xml
 <application
-    android:label="Hello Doctor"
+    android:label="Hello Teacher"
     ...>
 </application>
 ```
@@ -30,7 +30,7 @@ Example:
 
 ```xml
 <key>CFBundleDisplayName</key>
-<string>Hello Doctor</string>
+<string>Hello Teacher</string>
 ```
 
 ### If `CFBundleDisplayName` does not exist
@@ -64,7 +64,7 @@ Example:
 
 ```dart
 // Before
-Text('Hello Doctor'),
+Text('Hello Teacher'),
 
 // After
 Text('My New App Name'),
