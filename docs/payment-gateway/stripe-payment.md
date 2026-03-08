@@ -15,13 +15,23 @@ here we will use Stripe payment gateway, because Stripe is one of the largest pa
 - goto Stripe official site and register new account https://stripe.com/
 - when Stripe asks you to activate your account, you can **activate it later**
 - for now we only need a `Publishable key` and a `Secret key` you can get it here https://dashboard.stripe.com/test/dashboard
+<<<<<<< HEAD
 
 ![Flutter Doctor](./assets/stripe_key.png)
 
 - Copy Stripe `Publishable key` and paste it in `.env` file at `STRIPE_PUBLISHABLE_KEY=` in your `/Hallo_Teacher_Client_Firebase` flutter project
+=======
+>>>>>>> parent of 7ad62a1 (Add documentation for rebranding Hello Teacher app and payment gateways; include troubleshooting section)
 
 your `.env` file should look like this
 
+<<<<<<< HEAD
+=======
+- Copy Stripe `Publishable key` and paste it in `.env` file at `STRIPE_PUBLISHABLE_KEY=` in your `/Hallo_Teacher_Client_Firebase` flutter project
+
+your `.env` file should look like this
+
+>>>>>>> parent of 7ad62a1 (Add documentation for rebranding Hello Teacher app and payment gateways; include troubleshooting section)
 ```jsx title="/.env"
 #Stripe Environment
 STRIPE_PUBLISHABLE_KEY=sk_test_51HuXoBEwKn2CFnwUTqweh1Si9L0vG4zSbAbKm1OIhYLZA1R3ypELDXDCntEPJ9Y2nw62kwsKBn
@@ -55,6 +65,7 @@ firebase functions:config:set stripe.token="sk_test_51HuXoBEwKn2CFnwUTqw8kKeh1Si
 ```
 firebase deploy
 ```
+<<<<<<< HEAD
 
 #### If your Hallo Teacher version is <= `1.0.19`
 
@@ -143,3 +154,5 @@ If you want to use a different payment gateway provider, the main integration po
 - `lib/app/service/payment_service.dart`
 
 You’ll also need a matching server-side implementation in `/Halo_Teacher_Cloud_Function_Firebase` to create/verify payments and to receive webhook notifications.
+=======
+>>>>>>> parent of 7ad62a1 (Add documentation for rebranding Hello Teacher app and payment gateways; include troubleshooting section)
