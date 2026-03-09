@@ -130,7 +130,7 @@ Then re-download `google-services.json` and place it in:
 - `android/app/google-services.json`
 
 :::tip
-You already have a debug SHA1 tutorial in [`docs/setup-google-signin/android-google-sign-in.md:1`](docs/setup-google-signin/android-google-sign-in.md:1). The command above is the same idea, but uses your **release keystore**.
+You already have a debug SHA1 tutorial in [Setup Android Google Sign-In](../setup-google-signin/android-google-sign-in). The command above is the same idea, but uses your **release keystore**.
 :::
 
 ## 5) Build a release APK
