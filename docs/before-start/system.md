@@ -10,7 +10,7 @@ Flutter is an open source framework by Google for building beautiful, natively c
 ## Requirements
 
 - **Flutter SDK version:** 3.41.0
-- **Dart SDK version:** 3.11.0
+- **Dart SDK version:** 3.7.x
 - **Android Studio version:** Latest stable
 - **Xcode version:** Latest stable
 - **JDK version:** Latest stable
@@ -18,15 +18,16 @@ Flutter is an open source framework by Google for building beautiful, natively c
 ## System Requirement ⚡️
 
 ### 1. Android Development
+
 to develop this app into Android App, you needed
 
-- Android Studio for, building apps. https://developer.android.com/studio
-- Visual Studio Code, has many features to make it easier to develop flutter app. https://code.visualstudio.com/
-- Flutter for building apps. https://flutter.dev/docs/get-started/install
-- Firebase Account with Blaze Plan Activated https://firebase.google.com/
-- Agora.io account https://agora.io/
-- Stripe Account for Payment Gateway https://stripe.com/
-- GetX CLI, because this project uses GETX state management, GETX CLI will be very helpful https://pub.dev/packages/get_cli
+- Android Studio for, building apps. <https://developer.android.com/studio>
+- Visual Studio Code, has many features to make it easier to develop flutter app. <https://code.visualstudio.com/>
+- Flutter for building apps. <https://flutter.dev/docs/get-started/install>
+- Firebase Account with Blaze Plan Activated <https://firebase.google.com/>
+- Agora.io account <https://agora.io/>
+- Stripe Account for Payment Gateway <https://stripe.com/>
+- GetX CLI, because this project uses GETX state management, GETX CLI will be very helpful <https://pub.dev/packages/get_cli>
 
 To install and run Flutter, your development environment must meet these minimum requirements:
 
@@ -34,7 +35,9 @@ To install and run Flutter, your development environment must meet these minimum
 - Disk Space: 1.64 GB (does not include disk space for IDE/tools).
 
 ### 2. IOS Development
+
 to develope Hallo Teacher App into IOS App, it is mandatory to use MacOS Machine
-- Follow [this guide](https://docs.flutter.dev/get-started/install/macos) to setup Flutter in MacOS 
-  
+
+- Follow [this guide](https://docs.flutter.dev/get-started/install/macos) to setup Flutter in MacOS
+
 continue the tutorial to setup the app
