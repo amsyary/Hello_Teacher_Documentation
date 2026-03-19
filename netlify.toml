@@ -1,5 +1,5 @@
 [build]
-  publish = "build"
+  publish = "documentation"
   command = "npm run build"
 
 # SPA fallback: serve index.html for all routes (required for hash router)
