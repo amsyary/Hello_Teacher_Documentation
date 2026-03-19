@@ -1,0 +1,9 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# SPA fallback: serve index.html for all routes (required for hash router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
