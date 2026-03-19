@@ -37,7 +37,7 @@ if your Hallo Teacher version is greater than or equal to `1.1.1` you just need 
 and skip the next step in this page
 :::
 
-#### If your Hallo Teacher version is >= `1.1.1`
+#### If your Hallo Teacher version is 1.1.1 or newer
 
 - back to Firebase Cloud function folder `/Halo_Teacher_Cloud_Function_Firebase`
 - open it with `CMD`
@@ -53,9 +53,8 @@ STRIPE_SECRET_KEY=sk_test_your_secret_key_here
 ```
 firebase deploy
 ```
-<<<<<<< HEAD
 
-#### If your Hallo Teacher version is <= `1.0.19`
+#### If your Hallo Teacher version is 1.0.19 or older
 
 Set the functions config value (replace with your secret key):
 
@@ -106,7 +105,7 @@ Open the webhook you just created and copy the **Signing secret** (`whsec_...`).
 
 ## 3) Add Stripe webhook secret to Firebase Cloud Functions
 
-#### If your Hallo Teacher version is >= `1.1.1`
+#### If your Hallo Teacher version is 1.1.1 or newer
 
 Add your webhook secret to the Cloud Functions `.env`:
 
@@ -121,7 +120,7 @@ Deploy:
 firebase deploy
 ```
 
-#### If your Hallo Teacher version is <= `1.0.19`
+#### If your Hallo Teacher version is 1.0.19 or older
 
 Set the functions config value (replace with your webhook secret):
 

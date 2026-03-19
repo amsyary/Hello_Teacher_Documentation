@@ -21,13 +21,13 @@ Flutter is an open source framework by Google for building beautiful, natively c
 
 to develop this app into Android App, you needed
 
-- Android Studio for, building apps. <https://developer.android.com/studio>
-- Visual Studio Code, has many features to make it easier to develop flutter app. <https://code.visualstudio.com/>
-- Flutter for building apps. <https://flutter.dev/docs/get-started/install>
-- Firebase Account with Blaze Plan Activated <https://firebase.google.com/>
-- Agora.io account <https://agora.io/>
-- Stripe Account for Payment Gateway <https://stripe.com/>
-- GetX CLI, because this project uses GETX state management, GETX CLI will be very helpful <https://pub.dev/packages/get_cli>
+- Android Studio for building apps: [developer.android.com/studio](https://developer.android.com/studio)
+- Visual Studio Code, has many features to make it easier to develop flutter app: [code.visualstudio.com](https://code.visualstudio.com/)
+- Flutter for building apps: [flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+- Firebase Account with Blaze Plan Activated: [firebase.google.com](https://firebase.google.com/)
+- Agora.io account: [agora.io](https://agora.io/)
+- Stripe Account for Payment Gateway: [stripe.com](https://stripe.com/)
+- GetX CLI, because this project uses GETX state management, GETX CLI will be very helpful: [pub.dev/packages/get_cli](https://pub.dev/packages/get_cli)
 
 To install and run Flutter, your development environment must meet these minimum requirements:
 

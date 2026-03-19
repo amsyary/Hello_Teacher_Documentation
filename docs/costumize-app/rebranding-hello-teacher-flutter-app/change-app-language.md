@@ -10,7 +10,7 @@ sidebar_label: Change App Language
    - The first part is lowercase language code.
    - Then underscore.
    - Then uppercase country code.
-   - Reference: <https://docs.oracle.com/cd/E13214_01/wli/docs92/xref/xqisocodes.html>
+   - Reference: [ISO language/country codes](https://docs.oracle.com/cd/E13214_01/wli/docs92/xref/xqisocodes.html)
 3. Translate the values in the file, example:
    - `'Hallo': 'Hallo'` → `'Hallo': 'Hola'`
 4. Don’t forget to change the variable name to your country code.
