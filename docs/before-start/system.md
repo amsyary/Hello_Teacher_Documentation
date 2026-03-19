@@ -15,7 +15,7 @@ Flutter is an open source framework by Google for building beautiful, natively c
 - **Xcode version:** Latest stable
 - **JDK version:** Latest stable
 
-## System Requirement ⚡️
+## System Requirement
 
 ### 1. Android Development
 
